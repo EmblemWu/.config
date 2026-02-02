@@ -1,0 +1,9 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-right": ["battery", "clock"],
+
+  "battery": { "format":
+               "{capacity}% {icon}" }
+}

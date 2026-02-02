@@ -1,0 +1,31 @@
+[font]
+size = 13 
+
+[window]
+opacity = 0.9
+#blur = true
+
+[colors]
+#foreground = "#CBE0F0"
+
+[mouse]
+hide_when_typing = true
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Y"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "W"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "V"
+mods = "Control"
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
